@@ -1,0 +1,40 @@
+.row{
+    padding: 20px;
+}
+div{
+ 
+    text-align: left;
+}
+
+#nombre{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: -20px;
+   
+}
+
+.linea{
+    margin-top: -15px;
+}
+
+#carrera{
+    margin-top: -20px;
+    font-size: 20px;
+    color: rgb(220, 100, 14);
+}
+
+.acerca{
+    margin-top: -20px;
+    color: rgb(220, 100, 14);
+    text-shadow: 1px 1px 1px rgb(22, 22, 22);
+}
+#foto-perfil{
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 2%;
+    top:580px;
+}
+
+    
