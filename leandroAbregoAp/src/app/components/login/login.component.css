@@ -1,0 +1,97 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-image: url(https://i0.wp.com/alphaepta.co.za/wp-content/uploads/2019/10/CV-writing.jpg?w=2400&ssl=1);
+    background-size: 100%;
+    filter: grayscale();
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition-duration: 1s;
+}
+
+.sidenav:hover{
+    filter: none;
+    transition-duration: 1s;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 80%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+.logo-login img{
+    width: 200px;
+    margin-top: -700px;
+    
+}
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #000000;
+    font-style:italic;
+    font-weight: 400;
+}
+
+.login-main-text h2{
+    font-weight: 700;
+    
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn-black:hover{
+    background-color: orangered !important;
+    transition-duration: 0.5s;
+    
+}
